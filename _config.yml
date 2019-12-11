@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://akatsukip.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: 斯哈的阿瓦隆                                    # site's title
+title: Siha's Avalon                                   # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/avatar.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
