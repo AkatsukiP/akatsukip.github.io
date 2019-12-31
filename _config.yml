@@ -1,53 +1,47 @@
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://akatsukip.github.io"
+#
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# THEME-SPECIFIC CONFIGURATION
-title: Siha's Avalon                                   # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/avatar.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Siha's Avalon
+subtitle: Personal Blog
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the demo site for a Jekyll theme version of
+  HTML5 UP's sleek, responsive site template Prologue.
+author: Siha
+email: sihadmin@akatsukistudio.com
+avatar: assets/images/avatar.jpg
 
-# Header and footer text
-header_text: Avalon
-header_feature_image: assets/img/default.jpg
-footer_text: >
-  Copyright 2019-2020
+# You'll want to customize url and baseurl for your own site:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "akatsukip.github.io" # the base hostname & protocol for your site
 
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+# Social settings
+# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
+twitter_url: https://twitter.com/siha323
+facebook_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+github_url: https://github.com/AkatsukiP
+pinterest_url:
+slack_url:
+dribbble_url:
 
-# Features
-katex: true                                             # Enable if using math markup
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-disqus_shortname:                                       # Your discus shortname for comments
-layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
-footer_icons:                                           # In _data/social.yml
-share_buttons:                                          # In _data/social.yml
-authors:                                                # In _data/authors.yml
-language:                                               # In _data/language.yml
+# Google Analytics Tracking ID goes here:
+google_analytics:
 
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*",
-          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
-
-#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
