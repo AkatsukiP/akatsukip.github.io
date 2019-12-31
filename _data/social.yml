@@ -1,6 +1,6 @@
 # Icons on the footer
 rss: true         # Make sure you created a feed.xml with feed.xml layout
-email_address: shigure.siha@outlook.com    # Full email address, e.g. "sam@example.com"
+email_address: sihadmin@akatsukistudio.com    # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
@@ -16,9 +16,9 @@ reddit:
 soundcloud:
 stack_overflow:
 stack_exchange:   # Full URL
-steam:
+steam: "siha323"
 tumblr:
-twitter:          # "twitter username"
+twitter: "siha323"         # "twitter username"
 vimeo:
 wordpress:
 youtube:

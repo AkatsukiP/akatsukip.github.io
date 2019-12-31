@@ -9,10 +9,10 @@ avatar: assets/img/avatar.png                         # Empty for no avatar in n
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Avalon
+header_text: " "
 header_feature_image: assets/img/default.jpg
 footer_text: >
-  Copyright 2019-2020
+  Copyright 2019-2020 Siha
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
