@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2022 Microsoft DevHack"
-date:   2022-11-24 16:45:00 +0800
+date:   2022-11-24 16:35:00 +0800
 author: siha
 feature-img: "assets/img/pexels/2019-annual-summary.jpg"
 thumbnail: "assets/img/pexels/2019-annual-summary.png"
