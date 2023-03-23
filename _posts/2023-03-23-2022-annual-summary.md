@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "2022年度总结"
-date:   2023-03-23 23:45:00 +0800
+date:   2023-03-23 00:00:00 +0800
 author: siha
 feature-img: "assets/img/pexels/2022-annual-summary.jpg"
 thumbnail: "assets/img/pexels/2022-annual-summary.png"
-catagories: "2020"
+catagories: "2023"
 tags: [年度总结,post]
 ---
 
